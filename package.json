@@ -139,7 +139,7 @@
     "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-svg": "^2.0.0",
     "rollup-plugin-terser": "^7.0.2",
-    "sass": "1.30.0",
+    "sass": "1.77.3",
     "sizeof": "^1.0.0",
     "stylelint": "^13.7.0",
     "stylelint-config-sass-guidelines": "^7.1.0",
