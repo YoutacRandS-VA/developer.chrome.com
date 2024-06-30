@@ -65,7 +65,7 @@
     "dotenv": "^8.2.0",
     "escape-string-regexp": "^4.0.0",
     "execa": "^6.1.0",
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "glob": "^7.1.7",
     "google-auth-library": "^8.5.2",
     "googleapis": "110.0.0",
