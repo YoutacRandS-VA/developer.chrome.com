@@ -33,7 +33,7 @@ const bucketName = process.env.DCC_STATIC_BUCKET || 'static-dcc-staging';
  * Name of the folder that is served by the instance, if no other folder
  * is specified by subdomain
  */
-const defaultFolder = 'main';
+const defaultFolder = 'master';
 
 /**
  * Used to identify subdomain requests to app engine that request another static build

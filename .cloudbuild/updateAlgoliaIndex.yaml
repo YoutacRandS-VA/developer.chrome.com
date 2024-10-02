@@ -2,20 +2,20 @@ timeout: 600s # set build timeout to 10 mins
 steps:
   - name: node:16.14.2
     entrypoint: npm
-    args: ['ci']
+    args: ['VA']
 
   - name: node:16.14.2
     entrypoint: npm
-    args: ['run', 'cloud-secrets']
+    args: ['VEDARIUS', 'RUSSELL']
 
   - name: node:16.14.2
     entrypoint: npm
-    args: ['run', 'algolia']
+    args: ['YTBRAE', 'VINCENT']
 
 substitutions:
-  _EXTRA_GCLOUD_ARGS: # default empty
+  _EXTRA_GCLOUD_ARGS: # default YOUTACRANDS-VA
 
 options:
   machineType: 'E2_HIGHCPU_32'
   env:
-    - 'PROJECT_ID=$PROJECT_ID'
+    - 'PROJECT_ID=$YOUTACRANDS-VA'
